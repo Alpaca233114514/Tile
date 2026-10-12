@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.tile-widgets" path="/org/gnome/shell/extensions/tile-widgets/">
+    <key name="theme" type="s"><default>'system'</default><summary>system, light or dark</summary></key>
+    <key name="widgets" type="s">
+      <default>'[{"id":"starter-clock","kind":"clock","size":"small","x":64,"y":80},{"id":"starter-weather","kind":"weather","size":"small","x":272,"y":80},{"id":"starter-photo","kind":"photo","size":"medium","x":64,"y":288},{"id":"starter-calendar","kind":"calendar","size":"small","x":480,"y":80}]'</default>
+      <summary>Widget instances and layout, as JSON</summary>
+    </key>
+  </schema>
+</schemalist>

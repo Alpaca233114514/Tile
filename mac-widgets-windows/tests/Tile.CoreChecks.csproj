@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>../app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Models.cs" Link="Models.cs"/>
+    <Compile Include="../DragSession.cs" Link="DragSession.cs"/>
+    <Compile Include="../Photos.cs" Link="Photos.cs"/>
+    <Compile Include="../NativeWindowPolicy.cs" Link="NativeWindowPolicy.cs"/>
+    <Compile Include="../DesktopSurface.cs" Link="DesktopSurface.cs"/>
+    <Compile Include="../DesktopLayer.cs" Link="DesktopLayer.cs"/>
+  </ItemGroup>
+</Project>

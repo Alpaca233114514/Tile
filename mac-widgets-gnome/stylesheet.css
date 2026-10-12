@@ -1,0 +1,19 @@
+.tile-card { border-radius: 24px; padding: 14px 20px 16px; border: 1px solid rgba(255,255,255,0.42); spacing: 8px; font-family: sans-serif; }
+.tile-light { background-color: rgba(246,245,241,0.95); color: #29312c; }
+.tile-dark { background-color: rgba(36,40,49,0.95); color: #f6f5f1; border-color: rgba(255,255,255,0.16); }
+.tile-title { font-size: 12px; font-weight: 600; padding-bottom: 4px; }
+.tile-title:hover { color: #8eaf9a; }
+.tile-body { spacing: 4px; }
+.tile-time { font-size: 48px; font-weight: 300; }
+.tile-temperature { font-size: 42px; font-weight: 300; }
+.tile-detail { font-size: 13px; }
+.tile-message { font-size: 22px; padding-top: 48px; }
+.tile-weather { background-gradient-direction: vertical; background-gradient-start: #527ca1; background-gradient-end: #244661; color: white; }
+.tile-photo { background-color: #577664; color: white; }
+.tile-photo-image { border-radius: 12px; min-height: 72px; }
+.tile-credit { font-size: 11px; color: rgba(255,255,255,0.8); padding-top: 4px; }
+.tile-calendar { font-family: monospace; font-size: 14px; padding-top: 20px; }
+.tile-editing { border-color: #8cb89b; }
+.tile-photo-empty { font-size: 32px; }
+.tile-photo-choose { border-radius: 10px; background-color: #e5ebe4; color: #253c30; padding: 6px 10px; font-size: 12px; }
+.tile-photo-choose:hover, .tile-photo-choose:focus { background-color: #c7decc; }

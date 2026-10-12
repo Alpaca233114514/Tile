@@ -1,0 +1,8 @@
+{
+  "uuid": "tile-widgets@tile.local",
+  "name": "Tile · Desktop Widgets",
+  "description": "Native desktop clock, weather, photos and calendar. A macOS-inspired experimental demo.",
+  "shell-version": ["45", "46", "47", "48", "49"],
+  "settings-schema": "org.gnome.shell.extensions.tile-widgets",
+  "version": 3
+}
